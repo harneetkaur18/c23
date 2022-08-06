@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="design.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position:sticky; top:0; z-index:999">
+        <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#mymenu">Click Here</button>
+        <a class="navbar-brand">Sardarji</a>
+        </div>
+        <div class="collapse navbar-collapse" id="mymenu">
+        <ul class=" nav navbar-nav">
+            <li>Login</li>
+            <li>Clothes</li>
+            <li>Electronic</li>
+        </ul>
+        </div>
+    </nav>
+        <div class="container">
+        <label>Name</label>
+        <input placeholder="Enter your name" type="text" class="form-control" >
+        <br>
+        <label>Email ID</label>
+        <input placeholder="Enter your Email" class="form-control">
+        <br>
+        <label>Password</label>
+        <input placeholder="Enter your password" class="form-control">
+        <br>
+        <button class="btn btn-info" style="width:30%">Log In</button>
+
+        </div>
+        <h1>Clothes</h1>
+        <label>Click on Next to see more options</label>
+        <div class="carousel slide" id="myslider">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                       <a href=""><img class="img-responsive" src="img1.jpeg"></a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href=""><img class="img-responsive"src="img2.jpeg"></a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href=""><img class="img-responsive" src="img3.webp"></a>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myslider" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" data-slide="next" href="#myslider">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <hr>
+        <h1 class="page-header">Electronics</h1>
+        <label class="text-capitalize">best electronics all over india</label>
+        <div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12" id="iphone">
+                <h3>Iphone</h3>
+                <img  class="img-responsive col-lg-5 col-md-5 col-sm-11 col-xs-12" src="img4.jpeg">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-11 col-xs-12">The new iPhone SE, and iPhone 13 & iPhone 13 Pro in two shades of green. Buy now. They are committed to protecting your data. Learn more about privacy at Apple. Privacy built in. Wide camera. Services: No-contact free delivery, EMI available, Shop with Specialists.</p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12" id="air">
+                <h3>Airpods</h3>
+                <img  class="img-responsive col-lg-5 col-md-5 col-sm-11 col-xs-12" src="airpods.jpeg">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-11 col-xs-12">
+                    Although they were released in 2019, Apple's AirPods Pro remain top true-wireless earbuds, thanks to their comfortable fit, decent sound, Active Noise Cancellation and compelling feature set, which includes Apple's spatial audio virtual surround feature
+                </p>
+            </li>
+        </ul>
+        </div>
+        <br>
+        <hr>
+        <h1 class="page-header" style="margin-top:10px">Customer Reviews</h1>
+        <div class="bg-success reviewhead" data-toggle="collapse" data-target="#review1">
+            <span class="glyphicon glyphicon-star"></span>
+            Reviews by Harneet Kaur<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="review1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-11 col-xs-12">
+                <img class="img-responsive" src="happycus.JPG">
+            </div>
+        <div class="col-lg-9 col-md-9 col-sm-11 col-xs-12 reviewtext">
+            
+        </div>
+        </div>
+    </body>
+</html>
